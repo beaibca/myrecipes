@@ -31,12 +31,28 @@ $navbar-default-bg:#073B15;
   }
 }
 .btn-xlarge{
-  background-color:#073B15;
+  background-color:$navbar-default-bg;
   &:hover{
     color:#ffffff;
     text-decoration:none;
   }
 }
+.description{
+  margin-top:0;
+  }
+.well{
+    A{
+      color:$navbar-default-bg;
+      }
+    }
+.colormatch{
+    A{
+      color:$navbar-default-bg;
+      }
+  }
+.chef_info{
+  margin-top:10px;
+  }
 footer{
   border-top:1px solid #eaeaea;
   color:#777;
